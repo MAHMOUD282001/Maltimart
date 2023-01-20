@@ -1,0 +1,23 @@
+.common__section{
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../../../assets/images/hero-img.png') no-repeat center center;
+    background-size: contain;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.common__section h1{
+    color: #fff;
+    font-weight: 600;
+}
+
+@media(max-width:768px){
+    .common__section{
+        padding: 70px 0;
+    }
+    
+    .common__section h1{
+        font-size: 1.4rem;
+    }    
+}

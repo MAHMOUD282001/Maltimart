@@ -1,0 +1,129 @@
+.hero__section{
+    background-color: var(--hero-bg);
+}
+
+.hero__content{
+    padding-top: 45px;
+}
+
+.hero__content h2{
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.hero__content p{
+    color: var(--primary-color);
+    line-height: 28px;
+}
+
+.hero__content p:nth-of-type(1){
+    font-weight: 500;
+}
+
+.buy__btn{
+    outline: none;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 40px;
+}
+
+.buy__btn a:hover{
+    color: #fff;
+}
+
+.timer__count{
+    background-color: var(--primary-color);
+    height: 300px;
+}
+
+.timer__count img{
+    width: 70%!important;
+    height: 70%!important;
+    object-fit: contain;
+}
+
+.store__btn{
+    background-color: #fff;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.store__btn a:hover{
+    color: var(--primary-color);
+}
+
+@media(max-width:991px){
+    .hero__content h2{
+        font-size: 2rem;
+    }
+    
+    .section__title{
+        font-size: 1.7rem;
+    }
+    
+    .counter__img{
+        display: none;
+    }
+    
+    .clock__top-content{
+        text-align: center;
+    }
+    
+    .clock__top-content h4{
+        font-size: .9rem !important;
+    }
+    
+    .clock__top-content h3{
+        font-size: 1rem !important;
+    }
+    
+    .clock__wrapper{
+        justify-content: center;
+    }
+    
+    .clock__data h1{
+        font-size: 1.1rem!important;
+    }
+    
+    .clock__data h5{
+        font-size: .9rem!important;
+    }
+    
+    .count__down-col{
+        text-align: center;
+        display: inline-block;
+    }
+}
+
+@media(max-width:768px){
+    .hero__content h2{
+        font-size: 1.6rem;
+    }
+    
+    .hero__content p{
+        font-size: .9rem;
+    }
+    
+    .buy__btn a{
+        font-size: .9rem;
+    }
+    
+    .section__title{
+        font-size: 1.4rem;
+    }
+}
+
+
+@media(max-width:576px){
+    .hero__content{
+        padding-top: 0;
+        margin-bottom: 40px;
+    }
+}
