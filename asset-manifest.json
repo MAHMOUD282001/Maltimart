@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Maltimart/static/css/main.b0a94249.css",
+    "main.js": "/Maltimart/static/js/main.eb59a80d.js",
+    "static/media/remixicon.svg?t=1590207869815": "/Maltimart/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/remixicon.eot?t=1590207869815": "/Maltimart/static/media/remixicon.5cb99e6cba5a4619063f.eot",
+    "static/media/remixicon.ttf?t=1590207869815": "/Maltimart/static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/hero-img.png": "/Maltimart/static/media/hero-img.4cb525f5d6bac4b5af39.png",
+    "static/media/remixicon.woff?t=1590207869815": "/Maltimart/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/remixicon.woff2?t=1590207869815": "/Maltimart/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "static/media/counter-timer-img.png": "/Maltimart/static/media/counter-timer-img.11ac8dfe1f6734c62d2f.png",
+    "index.html": "/Maltimart/index.html",
+    "main.b0a94249.css.map": "/Maltimart/static/css/main.b0a94249.css.map",
+    "main.eb59a80d.js.map": "/Maltimart/static/js/main.eb59a80d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0a94249.css",
+    "static/js/main.eb59a80d.js"
+  ]
+}
